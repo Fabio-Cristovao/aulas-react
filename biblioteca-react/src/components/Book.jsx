@@ -15,7 +15,8 @@ export default function Book(props) {
       <h1>{title}</h1>
       <h2>{author}</h2>
       <img src={`livros/${imageUrl}`} alt={title}/>
-      <p>Read: {alreadyRead}</p>
+      <p>Read: {
+      alreadyRead ? 'lido' : 'não lido'}</p>
       <button onClick={handleDelete}>Delete</button>
     </article>
   )
