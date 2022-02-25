@@ -1,0 +1,16 @@
+
+.App {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.App svg {
+  display: block;
+  margin: 10px;
+}
+
+.App button {
+  padding: 5px 10px;
+}
